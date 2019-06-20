@@ -31,6 +31,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	animation: animateBattery0 1s linear infinite;
 }
 .battery1 {
 	position: absolute;
@@ -38,6 +39,7 @@
 	left: 50%;
 	transform: translate(-50%,-93%);
 	z-index: -1;
+	animation: animateBattery1 1s linear infinite;
 }
 .battery2 {
 	position: absolute;
@@ -45,6 +47,7 @@
 	left: 50%;
 	transform: translate(-50%,-93%);
 	z-index: -2;
+	animation: animateBattery2 1s linear infinite;
 }
 .battery3 {
 	position: absolute;
@@ -52,6 +55,7 @@
 	left: 50%;
 	transform: translate(-50%,-93%);
 	z-index: -3;
+	animation: animateBattery3 1s linear infinite;
 }
 .battery4 {
 	position: absolute;
@@ -59,8 +63,97 @@
 	left: 50%;
 	transform: translate(-50%,-93%);
 	z-index: -4;
+	animation: animateBattery4 1s linear infinite;
 }
 /* this section talks about how to stack my images (end) */
+
+@keyframes animateBattery0 {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes animateBattery1 {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes animateBattery2 {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes animateBattery3 {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes animateBattery4 {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
