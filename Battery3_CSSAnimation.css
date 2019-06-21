@@ -1,10 +1,4 @@
 
-.fa-android {
-	color: green;
-	font-weight: 400;
-	font-size: 300%;
-}
-
 .charging {
 	color: black;
 	animation: animateCharging 4s linear infinite;
@@ -22,7 +16,6 @@
 	top: 0;
 	left: 50%;
 	background: rgba(0, 0, 0, .3);
-	z-index: 1;
 }
 
 /* this section talks about how to stack my images (start) */
@@ -31,127 +24,160 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	animation: animateBattery0 1s linear infinite;
+	animation: animateBattery0 5s linear infinite;
 }
 .battery1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-93%);
-	z-index: -1;
-	animation: animateBattery1 1s linear infinite;
+	animation: animateBattery1 5s linear infinite;
 }
 .battery2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-93%);
-	z-index: -2;
-	animation: animateBattery2 1s linear infinite;
+	animation: animateBattery2 5s linear infinite;
 }
 .battery3 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-93%);
-	z-index: -3;
-	animation: animateBattery3 1s linear infinite;
+	animation: animateBattery3 5s linear infinite;
 }
 .battery4 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-93%);
-	z-index: -4;
-	animation: animateBattery4 1s linear infinite;
+	animation: animateBattery4 5s linear infinite;
 }
 /* this section talks about how to stack my images (end) */
 
 @keyframes animateBattery0 {
 	0% {
 		opacity: 1;
+		color: red;
 	}
 	25% {
 		opacity: 1;
+		color: #ff6600;
 	}
 	50% {
 		opacity: 1;
+		color: #00cc00;
 	}
 	75% {
 		opacity: 1;
+		color: blue;
 	}
 	100% {
 		opacity: 1;
+		color: #6600cc;
 	}
 }
 
 @keyframes animateBattery1 {
 	0% {
 		opacity: 0;
+		color: red;
+	}
+	24% {
+		opacity: 0;
 	}
 	25% {
 		opacity: 1;
+		color: #ff6600;
 	}
 	50% {
 		opacity: 1;
+		color: #00cc00;
 	}
 	75% {
 		opacity: 1;
+		color: blue;
 	}
 	100% {
 		opacity: 1;
+		color: #6600cc;
 	}
 }
 
 @keyframes animateBattery2 {
 	0% {
 		opacity: 0;
+		color: red;
 	}
 	25% {
+		opacity: 0;
+		color: #ff6600;
+	}
+	49% {
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
+		color: #00cc00;
 	}
 	75% {
 		opacity: 1;
+		color: blue;
 	}
 	100% {
 		opacity: 1;
+		color: #6600cc;
 	}
 }
 @keyframes animateBattery3 {
 	0% {
 		opacity: 0;
+		color: red;
 	}
 	25% {
 		opacity: 0;
+		color: #ff6600;
 	}
 	50% {
+		opacity: 0;
+		color: #00cc00;
+	}
+	74% {
 		opacity: 0;
 	}
 	75% {
 		opacity: 1;
+		color: blue;
 	}
 	100% {
 		opacity: 1;
+		color: #6600cc;
 	}
 }
 @keyframes animateBattery4 {
 	0% {
 		opacity: 0;
+		color: red;
 	}
 	25% {
 		opacity: 0;
+		color: #ff6600;
 	}
 	50% {
 		opacity: 0;
+		color: #00cc00;
 	}
 	75% {
+		opacity: 0;
+		color: blue;
+	}
+	99% {
 		opacity: 0;
 	}
 	100% {
 		opacity: 1;
+		color: #6600cc;
 	}
 }
 
